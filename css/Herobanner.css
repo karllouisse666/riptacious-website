@@ -1,0 +1,90 @@
+/* START HERO SLIDER */
+.hero-section {
+    /* reduce bottom gap so the About section sits closer below */
+    margin: 20px auto 12px auto; /* reduced top gap after header was removed */
+    background: white;
+    border: 1px solid #aaa;
+    height: 350px;
+    width: 80%;
+    max-width: 1200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+/* Slides container */
+.slides-track {
+    width: 100%;
+    height: 100%;
+    position:absolute;
+}
+
+/* Each slide */
+.slide1, .slide2, .slide3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 1;
+}
+
+/* Make images fit */
+.slide1 img,
+.slide2 img,
+.slide3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* or contain */
+    border-radius: 8px;
+}
+
+
+/* Show slide when radio button checked */
+#img1:checked ~ .slide1,
+#img2:checked ~ .slide2,
+#img3:checked ~ .slide3 {
+    opacity: 1;
+    z-index: 2;
+}
+
+/* Slider buttons */
+.slider-buttons {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 3;
+}
+
+.slider-buttons label {
+    background: #d3d4d0;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid #000000;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.slider-buttons label:hover {
+    background: #A3B087;
+    border-color: #A3B087;
+}
+
+#img1:checked ~ .slider-buttons label[for="img1"],
+#img2:checked ~ .slider-buttons label[for="img2"],
+#img3:checked ~ .slider-buttons label[for="img3"] {
+    background: #435663(51, 51, 51)0879a;
+    color: #ffffff;
+    border-color: #95b355;
+}   /* END OF HERO SLIDER */

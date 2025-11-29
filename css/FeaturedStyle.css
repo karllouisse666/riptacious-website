@@ -1,0 +1,38 @@
+    .featured {
+        position: relative;
+        padding: 0 0 40px 0;
+        width: 80%;
+        margin: 0 auto;
+        overflow: visible; /* allow hovered card to overflow and not be clipped */
+    }
+    .featured-track {
+        /* responsive grid with a minimum card width and 20px gap */
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+        gap: 20px;
+        padding: 12px 0;
+        width: 100%;
+        box-sizing: border-box;
+        justify-items: stretch;
+    }
+
+    .card {
+        width: 100%;
+        height: 220px;
+        background: white;
+        border: 2px solid black;
+        border-radius: 25px;
+        position: relative;
+        box-sizing: border-box;
+        transition: transform 280ms cubic-bezier(.2,.9,.2,1), box-shadow 280ms ease;
+        transform-origin: center center;
+        cursor: pointer;
+        will-change: transform;
+    }
+
+    /* Larger hover effect for featured cards */
+    .featured-track .card:hover {
+        z-index: 20;
+        transform: translateY(-12px) scale(1.18);
+        box-shadow: 0 30px 60px rgba(0,0,0,0.35);
+    }

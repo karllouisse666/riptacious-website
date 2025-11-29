@@ -1,0 +1,63 @@
+.discover {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 0 40px 0;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.discover-track {
+    /* Use the same responsive grid as featured for consistent alignment */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 20px;
+    padding: 12px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.discover-card {
+    width: 100%;
+    height: 400px;
+    background: #50565a; /* frame color */
+    padding: 10px; /* space between frame and image */
+    border-radius: 16px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    align-items: center; /* center image when using contain */
+    justify-content: center;
+}
+
+.discover-card img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain; /* show full image uncropped */
+    object-position: center center;
+    border-radius: 8px;
+    display: block;
+    /* inner border effect */
+    box-shadow: inset 0 0 0 6px rgba(0,0,0,0.06);
+    transition: transform 400ms cubic-bezier(.2,.9,.2,1), filter 300ms ease;
+    transform-origin: center center;
+}
+
+/* Hover enlarge (CSS-only) */
+.discover-card {
+    transition: box-shadow 300ms ease, transform 300ms ease;
+    will-change: transform;
+}
+.discover-card:hover {
+    z-index: 2;
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.25);
+    border: 2px solid #a3b087;
+    background: rgb(189, 201, 164);
+}
+.discover-card:hover img {
+    /* scale slightly but keep image centered; with contain this shows a subtle zoom */
+    transform: scale(1.06);
+    filter: brightness(1.03);
+}

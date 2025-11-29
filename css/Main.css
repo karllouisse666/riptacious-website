@@ -1,0 +1,138 @@
+/* Normalized stylesheet filename for GitHub Pages (case-sensitive) */
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background: #5f6e77;
+        display: flex;
+}
+
+    body, html {
+    overflow-x: hidden;
+}
+
+    /* MAIN CONTENT */
+    .main {
+    margin-left: 70px;
+    width: calc(100% - 70px);
+}
+
+    .section-title {
+        font-size: 24px;
+        font-weight: 500;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        /* align section titles to the main content width (80%) and left-align them */
+        width: 80%;
+        margin: 30px auto 12px auto;
+        text-align: left;
+        color: #ffffff;
+        box-sizing: border-box;
+    }
+    .section-title1 {
+        font-size: 24px;
+        font-weight: 500;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        /* align section titles to the main content width (80%) and left-align them */
+        width: 80%;
+        margin: 80px auto 12px auto;
+        text-align: left;
+        color: #ffffff;
+        box-sizing: border-box;
+    }
+    .tittle {
+        font-family: 'Anton', sans-serif;
+    }
+/* Normalized stylesheet filename for GitHub Pages (case-sensitive) */
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background: #5f6e77;
+        display: flex;
+}
+
+    body, html {
+    overflow-x: hidden;
+}
+
+    /* MAIN CONTENT */
+    .main {
+    margin-left: 70px;
+    width: calc(100% - 70px);
+}
+
+    .section-title {
+        font-size: 24px;
+        font-weight: 500;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        /* align section titles to the main content width (80%) and left-align them */
+        width: 80%;
+        margin: 30px auto 12px auto;
+        text-align: left;
+        color: #ffffff;
+        box-sizing: border-box;
+    }
+    .section-title1 {
+        font-size: 24px;
+        font-weight: 500;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        /* align section titles to the main content width (80%) and left-align them */
+        width: 80%;
+        margin: 80px auto 12px auto;
+        text-align: left;
+        color: #ffffff;
+        box-sizing: border-box;
+    }
+    .tittle {
+        font-family: 'Anton', sans-serif;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background: #5f6e77;
+        display: flex;
+}
+
+    body, html {
+    overflow-x: hidden;
+}
+
+    /* MAIN CONTENT */
+    .main {
+    margin-left: 70px;
+    width: calc(100% - 70px);
+}
+
+    .section-title {
+        font-size: 24px;
+        font-weight: 500;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        /* align section titles to the main content width (80%) and left-align them */
+        width: 80%;
+        margin: 30px auto 12px auto;
+        text-align: left;
+        color: #ffffff;
+        box-sizing: border-box;
+    }
+    .section-title1 {
+        font-size: 24px;
+        font-weight: 500;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        /* align section titles to the main content width (80%) and left-align them */
+        width: 80%;
+        margin: 80px auto 12px auto;
+        text-align: left;
+        color: #ffffff;
+        box-sizing: border-box;
+    }
+    .tittle {
+        font-family: 'Anton', sans-serif;
+    }
+
+
+
+
